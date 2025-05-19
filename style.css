@@ -1,0 +1,501 @@
+ header {
+    height: 100vh;
+    background-image: url(img/background/camping-min.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    
+}
+body {
+    margin: 0;
+}
+header div{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.205);
+}
+header h1 {
+    margin: auto;
+    color: bisque;
+    font-size: 8vw;
+    margin-top: 180px;
+    font-family: Philosopher;
+    transition: all 1s;
+}
+@font-face {
+    font-family: Philosopher;
+    src: url(fonts/Philosopher/Philosopher-Bold.ttf);
+}
+
+#Alaska {
+    background-image: url(img/background/alaska.jpeg);
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left {
+    width: 50%;
+    font-size: 3vw;
+    color: darkkhaki;
+    padding: 3%;
+    transition: all 1s;
+}
+
+#right {
+    width: 50%;
+    color: bisque;
+    padding: 3%;
+    line-height: 1.7;
+    font-size: 1vw;
+    transition: all 1s;
+}
+
+#Alaska button {
+    padding: 20px 40px;
+    background-color: rgba(255, 140, 0, 0.822);
+    border: none;
+}
+#Alaska button a {
+    color: black;
+}
+.filter{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(4, 36, 34, 0.149);
+
+}
+h1{
+    margin: auto;
+    font-size: 3vw;
+    color: rgb(9, 211, 211);
+    font-family: Prest;
+}
+#Japan{
+    display: flex;
+
+    transition: all 1s;
+}
+#Japan img{
+    width: 30%;
+    transition: all 1s;
+}
+#Japan div{
+    width: 40%;
+    background-color: #eac0ce;
+    padding: 15% 5%;
+    transition: all 1s;
+}
+@font-face {
+    font-family:Prest;
+    src: url(fonts/Philosopher/Philosopher-Regular.ttf);
+}
+#Japan h2{
+    text-align: center;
+    font-family:Prest;
+    font-size: 2vw;
+    transition: all 1s;
+}
+header {
+    background-image: url(img/background/camping-min.jpg);
+    background-size: cover;
+    height: 100vh;
+    transition: all 1s;
+}
+header div {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.18);
+    transition: all 1s;
+}
+body {
+    margin: 0%;
+}
+
+#Egipt{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 10%;
+    padding-bottom: 100px;
+    background-color:#e2bb78;
+    background-image: url(img/background/760_screenshots_20190505002241_1.jpg);
+    position: relative;
+    overflow: hidden;
+
+}
+#Egipt img{
+    width: 35%;
+    height: 600px;
+    object-fit: cover;
+    border: 3px solid chocolate;
+    position: absolute; 
+    top: 30%;  
+    width: 30%; 
+    height: 30%; 
+    transition: transform 0.5s ease; 
+}
+#Egipt div{
+    width: 40%;
+    padding: 15% 5%;
+   
+}
+@font-face {
+    font-family:Prest;
+    src: url(fonts/Philosopher/Philosopher-Regular.ttf);
+}
+#Egipt h2{
+    text-align: center;
+    font-family:Prest;
+    font-size: 2vw;
+}
+header {
+    background-image: url(img/background/camping-min.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header div {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+#Egipt #info img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    position: relative; /* Содержимое будет над фоном */
+    z-index: 1; /* Положение перед фоном */
+}
+#info div{
+    width: 80%;
+    border: 3px solid chocolate;
+    box-shadow: 5px 5px 5px 5px silver;
+    margin-left: 60%;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: bisque;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+body {
+    margin: 0%;
+}
+
+#France{
+    display: flex;
+    padding: 50px;
+    justify-content:end;
+    gap: 10%;
+    padding-bottom: 100px;
+    background-color:#e2bb78;
+    background-image: url(img/background/fraaaaance.jpg);
+    position: relative;
+
+}
+
+
+#France img{
+    width: 25%;
+    height: 25%;
+    object-fit: cover;
+    border: 3px solid chocolate;
+    transition: transform 0.3s ease; /* Плавный переход */
+    
+    
+}
+#France div{
+    width: 40%;
+    padding: 15% 5%;
+   
+}
+@font-face {
+    font-family:Prest;
+    src: url(fonts/Philosopher/Philosopher-Regular.ttf);
+}
+#France h2{
+    text-align: center;
+    font-family:Prest;
+    font-size: 2vw;
+}
+header {
+    background-image: url(img/background/camping-min.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header div {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+#France #info img{
+    width: 150%;
+    height: 65%;
+    margin-left: 100%;
+    margin-top: 100px;
+    object-fit:cover;
+}
+#info div{
+    justify-content: end;
+    width: 100%;
+    border: 3px solid chocolate;
+    box-shadow: 5px 5px 5px 5px silver;
+    margin-left: 50%;
+    margin-top: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: bisque;
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+body {
+    margin: 0%;
+}
+
+#Mars{
+    display: flex;
+    justify-content:center;
+    gap: 3%;
+    background-image: url(img/background/m1111111111111rs.jpg);
+
+}
+#Mars img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid chocolate;
+    border-radius: 50% !important;
+    margin-top: 15%;
+    margin-left: 50px;
+
+
+}
+#Mars div{
+    width: 40%;
+
+   
+}
+@font-face {
+    font-family:Prest;
+    src: url(fonts/Philosopher/Philosopher-Regular.ttf);
+}
+#Mars h2{
+    text-align: center;
+    font-family:Prest;
+    font-size: 2vw;
+}
+header {
+    background-image: url(img/background/camping-min.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header div {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+#Mars #informat img{
+    width: 100%;
+    height: 65%;
+
+    object-fit:cover;
+}
+#informat div{
+    margin-top: 350px;
+    width: 400px;
+    border: 3px solid chocolate;
+    box-shadow: 5px 5px 5px 5px rgb(163, 65, 65);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgba(245, 196, 135, 0.774);
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+
+
+#Mars #informatio img{
+    width: 100%;
+    height: 65%;
+    margin-left: 50%;
+    margin-top: 10px;
+    object-fit:cover;
+}
+#informatio div{
+    margin-top: 300px;
+    width: 400px;
+    height: 50%;
+    justify-content: end;
+    border: 3px solid chocolate;
+    box-shadow: 5px 5px 5px 5px  rgb(163, 65, 65);
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+    background-color: rgba(245, 196, 135, 0.774);
+    position: relative;
+    font-size: 1.2em;
+    line-height: 1.2;
+}
+
+
+
+body {
+    margin: 0%;
+}
+  #samb {
+    padding: 20px;
+    text-align: center;
+    color: #cdcdcd;
+    font-size: 2em;
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+  #hb{
+    color: #cdcdcd;
+    text-align: center;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  #content3 {
+    flex: 2;
+  }
+  #image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  
+  #image-gallery img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffffff;
+    flex: 1 1 300px;
+  }
+ #gakakt{
+    color: #cdcdcd;
+    background-image: url(img/fon1.jpg) ;
+ }
+ footer {
+    background-color: #1f2833;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 10px;
+    flex-shrink: 0;
+    font-size: 0.9em;
+  }
+ body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 1000px) {
+    main {
+      margin: 20px auto;
+    }
+    #image-gallery img {
+      max-height: 150px;
+    }
+  }
+  #Bron{
+    background-image: url(img/fon-dlia-bileta-50-foto-36.jpg);
+    height: 86.7vh;
+  }
+  #Bron form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 50%;
+    height: 86.7vh;
+  }
+
+  #Bron input, #Bron select{
+    width: 100%;
+    font-size: 2.3vw;
+    border-radius: 20px;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  #zagol{
+    text-align: center;
+    font-size:xxx-large;
+    font-family: philosopher;
+    color: #ffffff;
+  }
+  #bron2{
+    border: 3px solid rgb(0, 125, 193);
+    text-align: center;
+    background-color: rgb(0, 179, 255);
+    color: #ffffff;
+  }
+  #bron3{
+    width: fit-content;
+    padding: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(74, 180, 202, 0.885);
+    color: #ffffff;
+    margin: auto;
+  }
+footer {
+    background-color: #1f2833;
+    color: #ffffff;
+    text-align: center;
+    padding: 3px 5px;
+    flex-shrink: 0;
+    font-size: 0.9em;
+}
+
+nav{
+    padding: 15px;
+    background-color: #1f2833;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-family: Philosopher;
+    font-size: 2vw;
+    text-decoration: none;
+    color: bisque;
+    border-right: 2px solid #1f2833 ;
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+nav a:last-child{
+    border: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+#up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+nav a:hover{
+    color: #ffffff;
+}
+#up img{
+    width: 50px;
+}

@@ -1,0 +1,119 @@
+@media (max-width: 1000px) {
+    header {
+        background-position: center;
+        height: 50vh;
+
+    }
+    header div {
+        height: 50vh
+    }
+    header h1 {
+        font-size: 10vw;
+    }
+    #Alaska {
+        flex-direction: column;
+    }
+    #left {
+        width:100%;
+        font-size: 2em;
+    }
+    
+    #right {
+        width: 100%;
+        font-size: 1.2em;
+    }
+    
+    #Alaska button {
+        padding: 10px 20px;
+        background-color: rgba(255, 140, 0, 0.822);
+    }
+    #Japan{
+        flex-direction: column;
+       }
+       #Japan img{
+        width: 100%;
+       }
+       #Japan div{
+        width: 100%;
+        background-color: darksalmon;
+        padding: 15% 5%;
+        box-sizing: border-box;
+       }
+       #Japan h2{
+        text-align: center;
+        font-size: 5vw;
+       }
+       
+       section {
+        padding: 50px;
+        background-color: #e2bb78;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    /* адаптивные стили для Египта */
+    #Egipt, #France, #Mars {
+        display: flex;
+        flex-direction: column; /* изменяем направление на столбцы для мобильных */
+        align-items: center;
+        justify-content: center;
+        gap: 20px; /* уменьшаем промежуток между элементами */
+    }
+    
+    #Egipt img, #France img, #Mars img {
+        width: 90%; /* изменяем ширину на 90% для мобильных */
+        height: auto; /* сохраняем пропорции изображения */
+        object-fit: cover;
+        border: 3px solid chocolate;
+    }
+    
+    #Egipt div, #France div, #Mars div {
+        width: 90%; /* ширина div элементов */
+        padding: 10%; /* уменьшаем отступы */
+    }
+    
+    /* стили заголовков */
+    #Egipt h2, #France h2, #Mars h2 {
+        text-align: center;
+        font-family: Prest;
+        font-size: 5vw; /* увеличиваем размер шрифта для мобильных */
+    }
+    
+    /* стили для info блоков */
+    #Egipt #info div, #France #info div, #Mars #informat div, #Mars #informatio div {
+        width: 95%; /* ширина для информационных блоков */
+        border: 3px solid chocolate;
+        box-shadow: 5px 5px 5px 5px silver;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: bisque;
+        margin: 20px 0; /* добавляем отступы сверху и снизу */
+        font-size: 1em; /* уменьшаем размер шрифта */
+    }
+    
+    /* медиа-запросы для больших экранов */
+    @media(min-width: 768px) {
+        section {
+            flex-direction: row; /* изменяем направление на строку для больших экранов */
+            justify-content: space-around;
+        }
+        
+        #Egipt, #France, #Mars {
+            padding: 50px;
+        }
+    
+        #Egipt img, #France img, #Mars img {
+            width: 30%; /* ширина изображений на большом экране */
+            height: auto;
+        }
+    
+        #Egipt div, #France div, #Mars div {
+            width: 40%; /* ширина div элементов на большом экране */
+            padding: 15% 5%;
+        }
+    
+        #Egipt h2, #France h2, #Mars h2 {
+            font-size: 2vw; /* размер шрифта для заголовков */
+        }
+    }
+}
